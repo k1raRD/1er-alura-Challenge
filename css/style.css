@@ -1,0 +1,150 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 13px;
+}
+
+#canvas
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.hero
+{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #222;
+    border: 2px solid #000;
+    border-radius: 8px;
+    box-shadow: 7px 13px 37px #000;
+    padding-top: 10px;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.hero h1
+{
+    text-align: center;
+    color: #00FF2B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+
+.hero span
+{
+    color: #eee;
+}
+
+
+.main-container
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.container-content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textarea-text
+{
+    background-color: #000;
+    color: #00FF2B;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px #111;
+    padding: 10px;
+
+}
+
+.button
+{
+    background-color: #00FF2B;
+    color: #000;
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 15px 20px 40px #111;
+}
+.button:hover
+{
+    background-color: #000;
+    color: #00FF2B;
+}
+
+
+#copy
+{
+    align-self: flex-end;
+}
+
+footer
+{
+    position: absolute;
+    top: 490px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer p
+{
+    color: #eee;
+}
+
+strong
+{
+    color: #00FF2B;
+}
+
+.icons-footer
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: #eee;
+}
+
+i
+{
+    font-size: 20px;
+}
+
+a
+{
+    color: #eee;
+}

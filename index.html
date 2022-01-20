@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Encriptador Alura</title>
+</head>
+
+<canvas id="canvas">
+</canvas>
+
+<body>
+    <main class="hero">
+        <header>
+            <img src="images/hacker.png" alt="imagen de un hacker" width="50px" height="50px" id="header-icon" >
+            <h1>Alura Challenge <span>Encriptador</span></h1>
+        </header>
+        <div class="main-container">
+            <div class="container-content">
+                <textarea type="text" class="textarea-text" id="text-user" cols="50" rows="15" placeholder="Escribe el texto que desea encriptar o desencriptar...(No introduzca mayusculas ni caracteres especiales)"></textarea>
+                <div class="buttons-container">
+                    <button class="button" id="encrypt">Encriptar</button>
+                    <button class="button" id="decrypt">Desencriptar</button>
+                </div>
+            </div>
+            <div class="copy-container container-content">
+                <textarea type="text" name="text-encrypt" class="textarea-text" id="text-encrypt" cols="50" rows="15" placeholder="El resultado estara aqui"></textarea>
+                <button class="button button-copy" id="copy">Copiar</button>
+            </div>
+            <footer>
+                <p>Coded by <strong class="footer-strong">Alex Collado</strong> alias: <strong>k1rard</strong></p>
+                <div class="icons-footer">
+                    <a href="https://github.com/k1raRD" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="www.linkedin.com/in/alexander-collado-57916717a
+                    "target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </footer>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/matrix.js"></script>
+    <script type="text/javascript" src="js/encrypt.js"></script>
+    <script type="text/javascript" src="js/decrypt.js"></script>
+    <script type="text/javascript" src="js/copy.js"></script>
+</body>
+</html>
